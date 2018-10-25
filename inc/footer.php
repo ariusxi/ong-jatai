@@ -16,7 +16,7 @@
         </footer>
         
         <script type="text/javascript" src="<?php echo BASE; ?>assets/js/jquery.min.js"></script>
-        <script type="text/javascript" src="<?php echo BASE; ?>assets/js/"></script>
+        <script type="text/javascript" src="<?php echo BASE; ?>assets/js/script.js"></script>
         <script type="text/javascript" src="<?php echo BASE; ?>assets/js/material-kit.js"></script>
     </body>
 </html>

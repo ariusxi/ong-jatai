@@ -2,10 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="title">Your Story Starts With Us.</h1>
-                <h4>Every landing page needs a small description after the big bold title, that&apos;s why we added
-                    this text here. Add here all the information that can make you or your product create the first
-                    impression.</h4>
+                <h1 class="title">ONG Jataí Mata Atlantica</h1>
+                <h4>A ONG Jataí Mata Atlantica é uma organização não-governamental criada em 2018, Trata-se de uma entidade privada sem fins lucratuvos, que tem a missão de perservar a Mata Atlantica e as abelhas Jataí.</h4>
                 <br>
             </div>
         </div>
@@ -13,51 +11,53 @@
 </div>
 <div class="main main-raised">
     <div class="container">
-        <div class="section text-center">
+        <div class="section">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
-                    <h2 class="title">Let&apos;s talk product</h2>
-                    <h5 class="description">This is the paragraph where you can write more details about your product.
-                        Keep you user engaged by providing meaningful information. Remember that by this time, the user
-                        is curious, otherwise he wouldn&apos;t scroll to get here. Add a button if you want the user to
-                        see more.</h5>
+    				<h3 class="title">Sobre nós</h3>
+					<p>A Tetragonisca angustula, chamada popularmente jataí-amarela, abelha-ouro, jati, abelha-mirim e abelha de botas, é uma espécie pequena, comum na cidade de São Paulo devido a seu clima ideal para o voo (lwama, 1977). Sua capacidade de polinização é caracterizada por serem atraídas por plantas não polinizadas pela abelhas européia, Apis melifera (Lopes,2015)</p>
+                    <br/>
+				</div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/1.jpeg">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/2.jpeg">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/3.jpeg">
+                        </div>
+                        <div class="col-md-12">&nbsp;</div>
+                        <div class="col-md-4">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/5.jpeg">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/6.jpeg">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/7.jpeg">
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="features">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-info">
-                                <i class="material-icons">chat</i>
-                            </div>
-                            <h4 class="info-title">Free Chat</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about
-                                each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-success">
-                                <i class="material-icons">verified_user</i>
-                            </div>
-                            <h4 class="info-title">Verified Users</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about
-                                each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-danger">
-                                <i class="material-icons">fingerprint</i>
-                            </div>
-                            <h4 class="info-title">Fingerprint</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about
-                                each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <h3 class="title">Propriedades do mel:</h3>
+                    <p>Aumenta a resistência do organismo, ação ligeiramente aperitiva, ação febrífuga. ação sedativa, suplemento alimentar, antisséptico, digestivo e laxativo, diurético e anti-anêmico.</p>
+                    <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <video controls>
+                        <source src="assets/video/1.mp4" type="video/mp4">
+                        <source src="assets/video/1.ogg" type="video/ogg">
+                        Seu navegador não tem disponibilidade para reprodução de videos
+                    </video>
                 </div>
             </div>
         </div>
@@ -69,25 +69,29 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class="bmd-label-floating">Nome Completo</label>
-                                    <input type="text" id="fullname" class="form-control">
+                                    <label class="bmd-label-floating">Titulo</label>
+                                    <input type="text" id="title" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label class="bmd-label-floating">Email</label>
-                                    <input type="email" class="form-control">
+                                    <input type="email" id="email" class="form-control">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="message" class="bmd-label-floating">Mensagem</label>
-                            <textarea type="email" class="form-control" rows="4" id="message"></textarea>
+                            <textarea class="form-control" rows="4" id="message"></textarea>
                         </div>
-
+                        <div class="row">
+                            <div class="col-md-4 ml-auto mr-auto text-center" id="feedback">
+                            
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-md-4 ml-auto mr-auto text-center">
-                                <button class="btn btn-warning btn-raised">
+                                <button type="submit" class="btn btn-warning btn-raised">
                                     Enviar
                                 </button>
                             </div>

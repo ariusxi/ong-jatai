@@ -23,23 +23,23 @@
                 <div class="col-md-8 ml-auto mr-auto">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/1.jpeg">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/1.jpeg"><br/>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/2.jpeg">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/2.jpeg"><br/>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/3.jpeg">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/3.jpeg"><br/>
                         </div>
                         <div class="col-md-12">&nbsp;</div>
                         <div class="col-md-4">
-                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/5.jpeg">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/5.jpeg"><br/>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/6.jpeg">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/6.jpeg"><br/>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/7.jpeg">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/7.jpeg"><br/>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto text-center">
-                    <video controls>
+                    <video style="width:100%;" controls>
                         <source src="assets/video/1.mp4" type="video/mp4">
                         <source src="assets/video/1.ogg" type="video/ogg">
                         Seu navegador não tem disponibilidade para reprodução de videos

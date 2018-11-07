@@ -60,6 +60,22 @@
                     </video>
                 </div>
             </div>
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto">
+					<h3 class="title">Nossos Produtos</h3>
+					<div class="row">
+                        <div class="col-md-4">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/produto1.jpeg"><br/>
+                        </div>
+						<div class="col-md-8">
+							<h4><strong>Mel Jataí</strong></h4>
+							<p>R$ 75,00</p>
+							<label>250g</label>
+							<p><button class="btn btn-warning btn-rounded">Comprar <i class="material-icons">shopping_cart</i></button></p>
+						</div>
+					</div>
+				</div>
+			</div>
         </div>
         <div class="section section-contacts">
             <div class="row">
